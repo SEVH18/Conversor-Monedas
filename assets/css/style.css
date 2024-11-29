@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.container{
+    border: 2px solid black;
+   margin-left: 25%;   
+   width: 50%;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.664);
+   color: white;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.conversor-monedas{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+select{
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+}
+input{
+    width: 80%;
+    height: 30px;
+    font-size: large;
+    text-align: center;
+}
+
+.graficos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button{
+    height: 40px;
+    width: 40%;
+    font-size: medium;
+}

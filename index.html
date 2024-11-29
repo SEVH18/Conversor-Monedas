@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+         <hr>
+         <h1>Conversor de monedas</h1>
+        <hr> 
+        <div class="conversor-monedas">
+            <h2>Pesos CLP</h2>
+            <input type="number" placeholder="Ingrese monto en Pesos" min="1" id="inputPesosChilenos">
+            <h3>Seleccione moneda a convertir:</h3>
+            <select name="monedas" id="selectorMonedas">
+                <option value="" id="valueUsd">USD</option>
+                <option value="" id="valueEur">EUR</option>
+            </select>
+            <button id="botonConvertirMonedas">Convertir mis pesos chilenos</button>
+            <h3 id="resultadoConversionMonedas">Resultado:</h3>
+        </div>
+        
+    </div>
+    <div class="graficos">
+    <canvas id="graficoDolar"></canvas>
+    <hr>
+    <canvas id="graficoEuro"></canvas> 
+    </div>
+    <script src="./assets/script/script.js"></script>   
+</body>
+</html>
